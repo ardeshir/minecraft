@@ -1,0 +1,274 @@
+[06:45:06] [Spigot Watchdog Thread/ERROR]: The server has stopped responding!
+[06:45:06] [Spigot Watchdog Thread/ERROR]: Please report this to http://www.spigotmc.org/
+[06:45:06] [Spigot Watchdog Thread/ERROR]: Be sure to include ALL relevant console errors and Minecraft crash reports
+[06:45:06] [Spigot Watchdog Thread/ERROR]: Spigot version: git-Spigot-9b4b0a2-f489f0f (MC: 1.13.2)
+[06:45:06] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[06:45:06] [Spigot Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Spigot!):
+[06:45:07] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[06:45:07] [Spigot Watchdog Thread/ERROR]: Current Thread: Server thread
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	PID: 20 | Suspended: false | Native: false | State: TIMED_WAITING
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:715)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:745)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[06:45:07] [Spigot Watchdog Thread/ERROR]: Entire Thread Dump:
+[06:45:07] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[06:45:07] [Spigot Watchdog Thread/ERROR]: Current Thread: process reaper
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	PID: 61 | Suspended: false | Native: false | State: TIMED_WAITING
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		sun.misc.Unsafe.park(Native Method)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:460)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:362)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:941)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1066)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1127)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:745)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[06:45:07] [Spigot Watchdog Thread/ERROR]: Current Thread: Thread-13
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	PID: 57 | Suspended: false | Native: false | State: TIMED_WAITING
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		net.zhuoweizhang.raspberryjuice.RemoteSession$OutputThread.run(RemoteSession.java:615)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:745)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[06:45:07] [Spigot Watchdog Thread/ERROR]: Current Thread: Thread-12
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	PID: 56 | Suspended: false | Native: true | State: RUNNABLE
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.io.BufferedReader.readLine(BufferedReader.java:324)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.net.SocketInputStream.socketRead0(Native Method)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.net.SocketInputStream.read(SocketInputStream.java:170)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.net.SocketInputStream.read(SocketInputStream.java:141)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.io.InputStreamReader.read(InputStreamReader.java:184)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.io.BufferedReader.fill(BufferedReader.java:161)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.io.BufferedReader.readLine(BufferedReader.java:324)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.io.BufferedReader.readLine(BufferedReader.java:389)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		net.zhuoweizhang.raspberryjuice.RemoteSession$InputThread.run(RemoteSession.java:577)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:745)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[06:45:07] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Server IO #3
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	PID: 37 | Suspended: false | Native: false | State: RUNNABLE
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:756)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:411)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:745)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[06:45:07] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Server IO #2
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	PID: 32 | Suspended: false | Native: false | State: RUNNABLE
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:756)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:411)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:745)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[06:45:07] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Server IO #1
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	PID: 31 | Suspended: false | Native: false | State: RUNNABLE
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:756)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:411)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:745)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[06:45:07] [Spigot Watchdog Thread/ERROR]: Current Thread: Thread-7
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	PID: 30 | Suspended: false | Native: true | State: RUNNABLE
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.net.PlainSocketImpl.socketAccept(Native Method)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:409)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.net.ServerSocket.implAccept(ServerSocket.java:545)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.net.ServerSocket.accept(ServerSocket.java:513)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		net.zhuoweizhang.raspberryjuice.ServerListenerThread.run(ServerListenerThread.java:27)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:745)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[06:45:07] [Spigot Watchdog Thread/ERROR]: Current Thread: File IO Thread
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	PID: 29 | Suspended: false | Native: false | State: TIMED_WAITING
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_13_R2.FileIOThread.c(SourceFile:59)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_13_R2.FileIOThread.run(SourceFile:35)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:745)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[06:45:07] [Spigot Watchdog Thread/ERROR]: Current Thread: Netty Server IO #0
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	PID: 28 | Suspended: false | Native: false | State: RUNNABLE
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		Locked on:sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.KQueueArrayWrapper.kevent0(Native Method)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.KQueueArrayWrapper.poll(KQueueArrayWrapper.java:198)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.KQueueSelectorImpl.doSelect(KQueueSelectorImpl.java:117)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:62)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:756)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:411)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:745)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[06:45:07] [Spigot Watchdog Thread/ERROR]: Current Thread: ObjectCleanerThread
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	PID: 27 | Suspended: false | Native: false | State: TIMED_WAITING
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		io.netty.util.internal.ObjectCleaner$1.run(ObjectCleaner.java:54)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:745)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[06:45:07] [Spigot Watchdog Thread/ERROR]: Current Thread: Spigot Metrics Thread
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	PID: 26 | Suspended: false | Native: false | State: TIMED_WAITING
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.util.TimerThread.mainLoop(Timer.java:552)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.util.TimerThread.run(Timer.java:505)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[06:45:07] [Spigot Watchdog Thread/ERROR]: Current Thread: Spigot Watchdog Thread
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	PID: 25 | Suspended: false | Native: false | State: RUNNABLE
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		sun.management.ThreadImpl.dumpThreads0(Native Method)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:454)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		org.spigotmc.WatchdogThread.run(WatchdogThread.java:76)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[06:45:07] [Spigot Watchdog Thread/ERROR]: Current Thread: Server console handler
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: true | State: RUNNABLE
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		Locked on:org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		Locked on:org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		Locked on:org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.io.FileInputStream.readBytes(Native Method)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.io.FileInputStream.read(FileInputStream.java:255)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:169)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:137)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:246)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:261)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.InputStreamReader.read(InputStreamReader.java:198)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readCharacter(ConsoleReader.java:2145)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.readLine(ConsoleReader.java:2349)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_13_R2.DedicatedServer$2.run(DedicatedServer.java:91)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[06:45:07] [Spigot Watchdog Thread/ERROR]: Current Thread: Thread-4
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	PID: 24 | Suspended: false | Native: false | State: RUNNABLE
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.io.PrintStream.write(PrintStream.java:451)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.io.PrintStream.write(PrintStream.java:480)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		Locked on:java.io.PrintStream.write(PrintStream.java:480)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.io.FileOutputStream.writeBytes(Native Method)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.io.FileOutputStream.write(FileOutputStream.java:326)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.io.PrintStream.write(PrintStream.java:451)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.io.FilterOutputStream.write(FilterOutputStream.java:77)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.io.FilterOutputStream.write(FilterOutputStream.java:125)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.io.PrintStream.write(PrintStream.java:480)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.io.PrintStream.write(PrintStream.java:480)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.io.FilterOutputStream.write(FilterOutputStream.java:97)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.v1_13_R2.util.TerminalConsoleWriterThread.run(TerminalConsoleWriterThread.java:36)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:745)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[06:45:07] [Spigot Watchdog Thread/ERROR]: Current Thread: DestroyJavaVM
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	PID: 22 | Suspended: false | Native: false | State: RUNNABLE
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[06:45:07] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[06:45:07] [Spigot Watchdog Thread/ERROR]: Current Thread: Server thread
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	PID: 20 | Suspended: false | Native: false | State: TIMED_WAITING
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_13_R2.MinecraftServer.run(MinecraftServer.java:715)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:745)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[06:45:07] [Spigot Watchdog Thread/ERROR]: Current Thread: Server Infinisleeper
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	PID: 21 | Suspended: false | Native: false | State: TIMED_WAITING
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.sleep(Native Method)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		net.minecraft.server.v1_13_R2.DedicatedServer$1.run(DedicatedServer.java:66)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[06:45:07] [Spigot Watchdog Thread/ERROR]: Current Thread: NonBlockingInputStreamThread
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	PID: 18 | Suspended: false | Native: false | State: WAITING
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		org.bukkit.craftbukkit.libs.jline.internal.NonBlockingInputStream.run(NonBlockingInputStream.java:278)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.Thread.run(Thread.java:745)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[06:45:07] [Spigot Watchdog Thread/ERROR]: Current Thread: Snooper Timer
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	PID: 16 | Suspended: false | Native: false | State: WAITING
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Object.java:502)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.util.TimerThread.mainLoop(Timer.java:526)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.util.TimerThread.run(Timer.java:505)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[06:45:07] [Spigot Watchdog Thread/ERROR]: Current Thread: Signal Dispatcher
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	PID: 4 | Suspended: false | Native: false | State: RUNNABLE
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[06:45:07] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[06:45:07] [Spigot Watchdog Thread/ERROR]: Current Thread: Finalizer
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	PID: 3 | Suspended: false | Native: false | State: WAITING
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:164)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:209)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[06:45:07] [Spigot Watchdog Thread/ERROR]: Current Thread: Reference Handler
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	PID: 2 | Suspended: false | Native: false | State: WAITING
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 	Stack:
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Native Method)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.Object.wait(Object.java:502)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: 		java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+[06:45:07] [Spigot Watchdog Thread/ERROR]: ------------------------------
+[06:45:07] [Spigot Watchdog Thread/INFO]: Startup script './start.sh' does not exist! Stopping server.
+[06:45:07] [Spigot Watchdog Thread/INFO]: Stopping server
+[06:45:07] [Spigot Watchdog Thread/INFO]: [RaspberryJuice] Disabling RaspberryJuice v1.7
+[06:45:07] [Spigot Watchdog Thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:63846.
+[06:45:07] [Spigot Watchdog Thread/INFO]: [RaspberryJuice] Raspberry Juice Stopped
+[06:45:07] [Spigot Watchdog Thread/INFO]: [SetSpawn] Disabling SetSpawn v2.1
+[06:45:07] [Spigot Watchdog Thread/INFO]: Saving players
+[06:45:07] [Spigot Watchdog Thread/INFO]: Saving worlds
+[06:45:07] [Spigot Watchdog Thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[06:45:07] [Spigot Watchdog Thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[06:45:07] [Spigot Watchdog Thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
